@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img" aria-label="Calculator app preview">
+  <rect width="640" height="400" fill="#f1f3f7"/>
+  <rect x="230" y="40" width="180" height="320" rx="18" fill="#ffffff" stroke="#d5d9e0" stroke-width="2"/>
+  <rect x="246" y="58" width="148" height="52" rx="8" fill="#16181d"/>
+  <text x="384" y="94" text-anchor="end" font-family="Arial, sans-serif" font-size="26" fill="#ffffff">128</text>
+  <g fill="#e4e7ed">
+    <rect x="246" y="126" width="32" height="32" rx="6"/><rect x="284" y="126" width="32" height="32" rx="6"/><rect x="322" y="126" width="32" height="32" rx="6"/>
+    <rect x="246" y="168" width="32" height="32" rx="6"/><rect x="284" y="168" width="32" height="32" rx="6"/><rect x="322" y="168" width="32" height="32" rx="6"/>
+    <rect x="246" y="210" width="32" height="32" rx="6"/><rect x="284" y="210" width="32" height="32" rx="6"/><rect x="322" y="210" width="32" height="32" rx="6"/>
+    <rect x="246" y="252" width="32" height="32" rx="6"/><rect x="284" y="252" width="32" height="32" rx="6"/><rect x="322" y="252" width="32" height="32" rx="6"/>
+  </g>
+  <g fill="#2563eb">
+    <rect x="362" y="126" width="32" height="32" rx="6"/><rect x="362" y="168" width="32" height="32" rx="6"/>
+    <rect x="362" y="210" width="32" height="32" rx="6"/><rect x="362" y="252" width="32" height="32" rx="6"/>
+  </g>
+</svg>
