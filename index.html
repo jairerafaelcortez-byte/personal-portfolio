@@ -5,20 +5,27 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="Portfolio of Jaire Rafael Reyes Cortez, an aspiring graphic designer and BSIT student." />
   <title>Jaire Rafael Reyes Cortez | Portfolio</title>
+
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="css/style.css" />
+
+  <!-- Correct CSS path: style.css is in the root folder -->
+  <link rel="stylesheet" href="./style.css" />
 </head>
+
 <body>
 
   <!-- NAVIGATION -->
   <header class="site-header">
     <nav class="nav container">
       <a href="#home" class="logo">JRC<span>.</span></a>
-      <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu" aria-expanded="false">
+
+      <button class="menu-toggle" id="menuToggle"
+        aria-label="Toggle menu" aria-expanded="false">
         <span></span><span></span><span></span>
       </button>
+
       <ul class="nav-links" id="navLinks">
         <li><a href="#home">Home</a></li>
         <li><a href="#about">About</a></li>
@@ -35,20 +42,30 @@
     <!-- HOME -->
     <section id="home" class="hero">
       <div class="container hero-grid">
+
         <div class="hero-text fade-in">
           <p class="eyebrow">Hello, I'm</p>
           <h1>Jaire Rafael Reyes Cortez</h1>
           <h2>Aspiring Graphic Designer</h2>
-          <p class="tagline">Designing clean layouts, from the screen to the print.</p>
+          <p class="tagline">
+            Designing clean layouts, from the screen to the print.
+          </p>
+
           <div class="hero-buttons">
             <a href="#projects" class="btn btn-primary">View My Work</a>
             <a href="#contact" class="btn btn-outline">Contact Me</a>
           </div>
         </div>
+
         <div class="hero-image fade-in">
-          <img src="images/profile.jpg" alt="Portrait of Jaire Rafael Reyes Cortez" id="profileImg"
-               onerror="this.onerror=null;this.src='images/profile-placeholder.svg';" />
+          <img
+            src="./profile.jpg"
+            alt="Portrait of Jaire Rafael Reyes Cortez"
+            id="profileImg"
+            onerror="this.onerror=null; this.src='./profile-placeholder.svg';"
+          />
         </div>
+
       </div>
     </section>
 
@@ -56,6 +73,7 @@
     <section id="about" class="section">
       <div class="container">
         <h2 class="section-title">About Me</h2>
+
         <div class="about-grid">
           <div class="about-text fade-in">
             <p>
@@ -63,22 +81,29 @@
               creating and printing jersey and shirt designs as well as tarpaulin layouts,
               which lets me turn my designs into real, finished products.
             </p>
+
             <p>
-              As a BSIT student, I enjoy mixing creativity with technology, from designing
-              layouts to building simple apps and web tools.
+              As a BSIT student, I enjoy mixing creativity with technology,
+              from designing layouts to building simple apps and web tools.
             </p>
           </div>
+
           <div class="timeline fade-in">
             <h3>Education</h3>
+
             <div class="timeline-item">
               <span class="years">2023 – Present</span>
               <h4>La Consolacion University Philippines</h4>
               <p>Bachelor of Science in Information Technology &middot; 4th Year</p>
             </div>
+
             <div class="timeline-item">
               <span class="years">2022 – 2023</span>
               <h4>Marcelo H. Del Pilar National High School</h4>
-              <p>Senior High School &middot; Science, Technology, Engineering, and Mathematics (STEM) Program</p>
+              <p>
+                Senior High School &middot; Science, Technology, Engineering,
+                and Mathematics (STEM) Program
+              </p>
             </div>
           </div>
         </div>
@@ -90,37 +115,45 @@
       <div class="container">
         <h2 class="section-title">Skills</h2>
         <p class="section-sub">Technical and programming skills.</p>
+
         <div class="skills-grid">
+
           <div class="skill-card fade-in">
             <h3>Java</h3>
             <span class="level">Intermediate</span>
             <div class="bar"><div class="bar-fill" data-width="65"></div></div>
           </div>
+
           <div class="skill-card fade-in">
             <h3>Python</h3>
             <span class="level">Intermediate</span>
             <div class="bar"><div class="bar-fill" data-width="65"></div></div>
           </div>
+
           <div class="skill-card fade-in">
             <h3>C#</h3>
             <span class="level">Intermediate</span>
             <div class="bar"><div class="bar-fill" data-width="65"></div></div>
           </div>
+
           <div class="skill-card fade-in">
             <h3>MySQL</h3>
             <span class="level">Intermediate</span>
             <div class="bar"><div class="bar-fill" data-width="65"></div></div>
           </div>
+
           <div class="skill-card fade-in">
             <h3>HTML &amp; CSS</h3>
             <span class="level">Intermediate</span>
             <div class="bar"><div class="bar-fill" data-width="65"></div></div>
           </div>
+
           <div class="skill-card fade-in">
             <h3>JavaScript</h3>
             <span class="level">Intermediate</span>
             <div class="bar"><div class="bar-fill" data-width="65"></div></div>
           </div>
+
         </div>
       </div>
     </section>
@@ -130,38 +163,70 @@
       <div class="container">
         <h2 class="section-title">Projects</h2>
         <p class="section-sub">Some of the projects I have completed.</p>
+
         <div class="projects-grid">
 
           <article class="project-card fade-in">
             <div class="project-thumb">
-              <img src="images/project-calculator.svg" alt="Simple Calculator project preview" />
+              <img
+                src="./project-calculator.svg"
+                alt="Simple Calculator project preview"
+                loading="lazy"
+              />
             </div>
+
             <div class="project-body">
               <h3>Simple Calculator</h3>
-              <p>A basic calculator mobile app that performs everyday arithmetic operations.</p>
-              <ul class="tags"><li>Android Studio</li><li>Java</li></ul>
+              <p>
+                A basic calculator mobile app that performs everyday arithmetic operations.
+              </p>
+              <ul class="tags">
+                <li>Android Studio</li>
+                <li>Java</li>
+              </ul>
             </div>
           </article>
 
           <article class="project-card fade-in">
             <div class="project-thumb">
-              <img src="images/project-studenthub.svg" alt="Student Hub project preview" />
+              <img
+                src="./project-studenthub.svg"
+                alt="Student Hub project preview"
+                loading="lazy"
+              />
             </div>
+
             <div class="project-body">
               <h3>Student Hub</h3>
-              <p>A mobile app that gives students one place to manage their school-related information.</p>
-              <ul class="tags"><li>Android Studio</li><li>Java</li></ul>
+              <p>
+                A mobile app that gives students one place to manage their school-related information.
+              </p>
+              <ul class="tags">
+                <li>Android Studio</li>
+                <li>Java</li>
+              </ul>
             </div>
           </article>
 
           <article class="project-card fade-in">
             <div class="project-thumb">
-              <img src="images/project-fintrack.svg" alt="FinTrack Financial Tracker project preview" />
+              <img
+                src="./project-fintrack.svg"
+                alt="FinTrack Financial Tracker project preview"
+                loading="lazy"
+              />
             </div>
+
             <div class="project-body">
               <h3>FinTrack Financial Tracker</h3>
-              <p>A web-based tracker that helps users record and monitor their income and expenses.</p>
-              <ul class="tags"><li>HTML</li><li>CSS</li><li>JavaScript</li></ul>
+              <p>
+                A web-based tracker that helps users record and monitor their income and expenses.
+              </p>
+              <ul class="tags">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+              </ul>
             </div>
           </article>
 
@@ -174,37 +239,81 @@
       <div class="container">
         <h2 class="section-title">Achievements</h2>
         <p class="section-sub">Certifications and recognitions.</p>
+
         <div class="ach-list">
+
           <div class="ach-item fade-in">
             <span class="ach-year">2024</span>
+
             <div class="ach-info">
               <h3>Microsoft Office Specialist: Excel 2019 Associate</h3>
               <p>Issued by Microsoft &middot; May 21, 2024</p>
             </div>
-            <a class="ach-thumb" href="images/cert-mos-excel.jpg" target="_blank" rel="noopener" aria-label="View Microsoft Office Specialist certificate">
-              <img src="images/cert-mos-excel.jpg" alt="Microsoft Office Specialist Excel 2019 Associate certificate" loading="lazy" />
+
+            <a class="ach-thumb"
+              href="./cert-mos-excel.jpg"
+              target="_blank"
+              rel="noopener"
+              aria-label="View Microsoft Office Specialist certificate">
+
+              <img
+                src="./cert-mos-excel.jpg"
+                alt="Microsoft Office Specialist Excel 2019 Associate certificate"
+                loading="lazy"
+              />
             </a>
           </div>
+
           <div class="ach-item fade-in">
             <span class="ach-year">2025</span>
+
             <div class="ach-info">
               <h3>Foundational C# with Microsoft</h3>
-              <p>Developer Certification by freeCodeCamp and Microsoft &middot; October 8, 2025</p>
+              <p>
+                Developer Certification by freeCodeCamp and Microsoft
+                &middot; October 8, 2025
+              </p>
             </div>
-            <a class="ach-thumb" href="images/cert-csharp.jpg" target="_blank" rel="noopener" aria-label="View Foundational C# certificate">
-              <img src="images/cert-csharp.jpg" alt="Foundational C# with Microsoft certificate" loading="lazy" />
+
+            <a class="ach-thumb"
+              href="./cert-csharp.jpg"
+              target="_blank"
+              rel="noopener"
+              aria-label="View Foundational C# certificate">
+
+              <img
+                src="./cert-csharp.jpg"
+                alt="Foundational C# with Microsoft certificate"
+                loading="lazy"
+              />
             </a>
           </div>
+
           <div class="ach-item fade-in">
             <span class="ach-year">2026</span>
+
             <div class="ach-info">
               <h3>TestDome HTML/CSS: Top 10% Ranking</h3>
-              <p>Passed the public HTML/CSS test and ranked in the top 10% &middot; August 8, 2026</p>
+              <p>
+                Passed the public HTML/CSS test and ranked in the top 10%
+                &middot; August 8, 2026
+              </p>
             </div>
-            <a class="ach-thumb" href="images/cert-testdome.jpg" target="_blank" rel="noopener" aria-label="View TestDome certificate">
-              <img src="images/cert-testdome.jpg" alt="TestDome HTML/CSS certificate" loading="lazy" />
+
+            <a class="ach-thumb"
+              href="./cert-testdome.jpg"
+              target="_blank"
+              rel="noopener"
+              aria-label="View TestDome certificate">
+
+              <img
+                src="./cert-testdome.jpg"
+                alt="TestDome HTML/CSS certificate"
+                loading="lazy"
+              />
             </a>
           </div>
+
         </div>
       </div>
     </section>
@@ -213,36 +322,59 @@
     <section id="contact" class="section">
       <div class="container">
         <h2 class="section-title">Contact Me</h2>
-        <p class="section-sub">Have a design project or just want to say hello? Reach out.</p>
+        <p class="section-sub">
+          Have a design project or just want to say hello? Reach out.
+        </p>
+
         <div class="contact-grid">
-          <a class="contact-card fade-in" href="mailto:jairerafaelreyescortez@gmail.com">
+
+          <a class="contact-card fade-in"
+            href="mailto:jairerafaelreyescortez@gmail.com">
             <h3>Email</h3>
             <p>jairerafaelreyescortez@gmail.com</p>
           </a>
-          <a class="contact-card fade-in" href="tel:+639693530739">
+
+          <a class="contact-card fade-in"
+            href="tel:+639693530739">
             <h3>Phone</h3>
             <p>0969 353 0739</p>
           </a>
-          <a class="contact-card fade-in" href="https://www.facebook.com/search/top?q=Jaire%20Rafael%20Reyes%20Cortez" target="_blank" rel="noopener">
+
+          <a class="contact-card fade-in"
+            href="https://www.facebook.com/search/top?q=Jaire%20Rafael%20Reyes%20Cortez"
+            target="_blank"
+            rel="noopener">
             <h3>Facebook</h3>
             <p>Jaire Rafael Reyes Cortez</p>
           </a>
+
         </div>
+
         <div class="center">
-          <a href="mailto:jairerafaelreyescortez@gmail.com?subject=Hello%20Jaire" class="btn btn-primary">Send Me an Email</a>
+          <a
+            href="mailto:jairerafaelreyescortez@gmail.com?subject=Hello%20Jaire"
+            class="btn btn-primary">
+            Send Me an Email
+          </a>
         </div>
       </div>
     </section>
 
   </main>
 
+  <!-- FOOTER -->
   <footer class="footer">
     <div class="container">
-      <p>&copy; <span id="year">2026</span> Jaire Rafael Reyes Cortez. All rights reserved.</p>
+      <p>
+        &copy; <span id="year">2026</span>
+        Jaire Rafael Reyes Cortez. All rights reserved.
+      </p>
       <a href="#home" class="to-top">Back to top &uarr;</a>
     </div>
   </footer>
 
-  <script src="js/script.js"></script>
+  <!-- Correct JavaScript path: script.js is in the root folder -->
+  <script src="./script.js" defer></script>
+
 </body>
 </html>
